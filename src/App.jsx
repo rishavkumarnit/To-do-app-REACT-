@@ -89,7 +89,7 @@ function App() {
                   name={item.id}
                   onChange={handleCheckbox}
                   className="mt-0.5"
-                  value={todo.isCompleted}
+                  value={item.isCompleted}
                   id=""
                 />
                 <div className="buttons flex mt-0.5 gap-1">
